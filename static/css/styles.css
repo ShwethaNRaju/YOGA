@@ -283,7 +283,7 @@ input {
 }
 
 /* Active link */
-.active-link {
+/* .active-link {
   position: relative;
   color: var(--title-color);
 }
@@ -296,7 +296,7 @@ input {
   height: 2px;
   bottom: -.75rem;
   left: 0;
-}
+} */
 
 /*=============== HOME ===============*/
 .home__img {
@@ -1040,3 +1040,4 @@ input {
 }
 /* contact us page  */
 
+ 

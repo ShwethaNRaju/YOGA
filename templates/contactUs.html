@@ -57,7 +57,7 @@ body{
 }
 .content .left-side .details i{
   font-size: 30px;
-  color: #3e2093;
+  color: hsl(var(--hue-color), 64%, 22%);
   margin-bottom: 10px;
 }
 .content .left-side .details .topic{
@@ -76,7 +76,7 @@ body{
 .content .right-side .topic-text{
   font-size: 23px;
   font-weight: 600;
-  color: #3e2093;
+  color: hsl(var(--hue-color), 24%, 35%);
 }
 .right-side .input-box{
   height: 50px;
@@ -117,7 +117,7 @@ body{
   transition: all 0.3s ease;
 }
 .button input[type="button"]:hover{
-  background: #5029bc;
+  background: #000000;
 }
 
 @media (max-width: 950px) {
@@ -176,7 +176,7 @@ body{
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
                 <li class="nav__item">
-                    <a href="{% url 'homepage' %}" class="nav__link active-link">Home</a>
+                    <a href="{% url 'homepage' %}" class="nav__link">Home</a>
                 </li>
                 <li class="nav__item">
                     <a href="{% url 'homepage' %}" class="nav__link">About</a>
@@ -185,7 +185,7 @@ body{
                     <a href="{% url 'join' %}" class="nav__link">Join Us</a>
                 </li>
                 <li class="nav__item">
-                    <a href="{% url 'contactus' %}" class="nav__link" id="cont">Contct Us</a>
+                    <a href="{% url 'contactus' %}" class="nav__link active-link" id="cont">Contct Us</a>
                 </li>
             </ul>
 
